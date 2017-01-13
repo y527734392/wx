@@ -443,3 +443,29 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
 INFO: [ app_init ] --END-- [ RunTime:0.002203s ]
 
+[ 2017-01-11T23:47:00+08:00 ] 192.168.33.1 /Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002130s ]
+
+[ 2017-01-11T23:47:01+08:00 ] 192.168.33.1 /Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001665s ]
+
+[ 2017-01-11T23:47:01+08:00 ] 192.168.33.1 /Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003256s ]
+
+[ 2017-01-11T23:48:27+08:00 ] 192.168.33.1 /Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002605s ]
+ERR: 模板不存在:./Application/Home/View/User/login.html
+
+[ 2017-01-11T23:50:32+08:00 ] 192.168.33.1 /Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001764s ]
+

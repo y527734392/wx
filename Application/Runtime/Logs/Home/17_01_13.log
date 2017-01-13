@@ -1,0 +1,35 @@
+[ 2017-01-13T23:52:10+08:00 ] 192.168.33.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004014s ]
+
+[ 2017-01-13T23:52:17+08:00 ] 192.168.33.1 /home/goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014729s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/project-php/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `a_goods` [ RunTime:0.001137s ]
+SQL: INSERT INTO `a_goods` (`name`,`age`) VALUES ('早餐奶',13) [ RunTime:0.001745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005197s ]
+
+[ 2017-01-13T23:54:05+08:00 ] 192.168.33.1 /home/goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002274s ]
+
+[ 2017-01-13T23:54:15+08:00 ] 192.168.33.1 /home/goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001769s ]
+
